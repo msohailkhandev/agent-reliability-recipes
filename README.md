@@ -15,11 +15,11 @@ Each recipe is one real failure, shown inside a real AI SDK agent loop (`ToolLoo
 | [01](recipes/01-loop-and-cost-guard) | Agent loops on the same tool call and burns money | ✅ Ready |
 | [02](recipes/02-idempotent-tool-calls) | Retry after a timeout sends the email / charges the card twice | ✅ Ready |
 | [03](recipes/03-retry-storm) | Retry storm: blind retries on errors that will never succeed | ✅ Ready |
-| 04 | Tool output is truncated or malformed, and the agent "succeeds" anyway | Planned |
-| 05 | Long run is killed by the platform timeout halfway through | Planned |
-| 06 | Agent fails silently instead of handing off to a human | Planned |
-| 07 | A prompt or model change quietly breaks a working agent | Planned |
-| 08 | Agent can't understand your API's errors | Planned |
+| 04 | Tool output is truncated or malformed, and the agent "succeeds" anyway | Planned · [#1](https://github.com/msohailkhandev/agent-reliability-recipes/issues/1) |
+| 05 | Long run is killed by the platform timeout halfway through | Planned · [#2](https://github.com/msohailkhandev/agent-reliability-recipes/issues/2) |
+| 06 | Agent fails silently instead of handing off to a human | Planned · [#3](https://github.com/msohailkhandev/agent-reliability-recipes/issues/3) |
+| 07 | A prompt or model change quietly breaks a working agent | Planned · [#4](https://github.com/msohailkhandev/agent-reliability-recipes/issues/4) |
+| 08 | Agent can't understand your API's errors | Planned · [#5](https://github.com/msohailkhandev/agent-reliability-recipes/issues/5) |
 
 ## Quick start
 
